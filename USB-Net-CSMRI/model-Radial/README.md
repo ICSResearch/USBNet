@@ -1,0 +1,1 @@
+Download the pth files from [[BaiduYun](https://pan.baidu.com/s/1tk7xiu5-WTMj-cT94cw2Vg?pwd=nbhr)]/[[GoogleDrive](https://drive.google.com/drive/folders/1FUGob2nl-jstB34NyJa1i7KISBrMUhBC?usp=sharing)] and place them in this folder.
