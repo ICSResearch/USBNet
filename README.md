@@ -46,6 +46,7 @@ python train.py --model=usbnet --data_path="" --eval_data_path="" --cs_ratio=5 -
 ## USB-Net-SCI
 ### Simulation
 Put the pth files in the folder "Sim".
+Measurement data should be placed in --data_root following the SCI dataset format.
 ```
 python test.py --data_root="path of data"
 ```
