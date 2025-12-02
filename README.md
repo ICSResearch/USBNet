@@ -1,7 +1,7 @@
 ## USB-Net-ICS
 
 Put the pth files in the folder "model".
-Make sure the folder structure is: ./model/your_checkpoint.pth.
+
 - Test
 ```
 python test.py --model=usbnet --cs_ratio=25
@@ -15,7 +15,7 @@ where results.csv will save the results in the format "{Image},{PSNR},{SSIM},{Ti
 ```
 CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 train.py --model=usbnet --data_path="" --eval_data_path="" --cs_ratio=10 --blr=1e-4 --min_lr=1e-6 --epochs=400 --batch_size=16 --warmup_epochs=10 --input_size=96
 ```
-2. Single GPU
+1. Single GPU
 ```
 python train.py --model=usbnet --data_path="" --eval_data_path="" --cs_ratio=10 --blr=1e-4 --min_lr=1e-6 --epochs=400 --batch_size=16 --warmup_epochs=10 --input_size=96
 ```
