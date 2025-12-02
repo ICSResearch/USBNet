@@ -1,7 +1,7 @@
 ## USB-Net-ICS
 
 Put the pth files in the folder "model".
-Make sure the folder structure is: ./model/your_checkpoint.pth.
+
 - Test
 ```
 python test.py --model=usbnet --cs_ratio=25
